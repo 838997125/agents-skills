@@ -1,0 +1,27 @@
+# Secrets — never commit
+.env
+**/.env
+*.key
+*.pem
+credentials.json
+
+# Local runtime artifacts
+runtime.conf
+**/runtime.conf
+*.log
+**/import_log.txt
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Node caches
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Nested git repos (e.g. anysearch-skill 自带 .git)
+**/.git/
