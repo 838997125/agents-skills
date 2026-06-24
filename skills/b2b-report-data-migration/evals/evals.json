@@ -1,0 +1,23 @@
+{
+  "skill_name": "b2b-report-data-migration",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "执行增量导入脚本，把 D:\\数据专用\\基础全量数据 目录下未处理的电商B端报表-YYYY-MM-DD.xlsx 文件导入到 MySQL 数据库",
+      "expected_output": "脚本运行成功，找到N个未处理的新文件并导入，数据库总行数增加",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "今天定时任务好像漏跑了，手动触发一下数据导入，补导入未处理的Excel数据到B2B_Report表",
+      "expected_output": "运行import_all_reports.py，成功导入之前漏跑的新文件",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "导入电商B端报表25年9-26年5.xlsx文件到YMSS_DING数据库的B2B_Report表中",
+      "expected_output": "脚本运行成功，16999行数据全部导入",
+      "files": ["D:\\数据专用\\基础全量数据\\电商B端报表25年9-26年5.xlsx"]
+    }
+  ]
+}
