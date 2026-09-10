@@ -32,3 +32,5 @@ ln -s /d/data/.agents/skills/<name> /d/data/.claude/skills/<name>
 ```
 
 需要开启 Windows 开发者模式或以管理员身份运行。
+
+> **许可说明**：本仓库原创/整合内容采用 [MIT](LICENSE)；聚合的第三方技能沿用各自许可，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
